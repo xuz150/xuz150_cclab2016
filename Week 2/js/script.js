@@ -8,7 +8,7 @@ function startDrawing(){
 	function draw() {
 		if (mouseIsPressed) {
   		noStroke();
-    	fill = fill(0);
+    	fill(0);
     	ellipse(mouseX, mouseY, 10, 10);
  		}
 	}
