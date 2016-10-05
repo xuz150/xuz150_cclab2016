@@ -1,7 +1,7 @@
 int ledPin = 9;
 int brightness = 0;
 int sensorLow = 0;
-int sensorHigh = 100;
+int sensorHigh = 150;
 
 void setup(){
   Serial.begin(9600);
