@@ -16,7 +16,7 @@ void setup() {
   
   arduino = new Arduino(this, Arduino.list()[1], 57600);
   
-    arduino.pinMode(13, Arduino.OUTPUT);
+  arduino.pinMode(13, Arduino.OUTPUT);
 }
 
 void draw() {
